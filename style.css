@@ -1,0 +1,61 @@
+.nav-img{
+    width: 30px;
+}
+.home-link{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+.navbar-div{
+    border: solid royalblue;
+    padding: 10px;
+}
+.data-div{
+    display: flex;
+    
+}
+.dyn-div{
+    border: solid darkblue;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.dyn-input{
+    width: 260px;
+    border: none;
+    background-color: lightcyan;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
+#btn-add{
+    float: right;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    cursor: pointer;
+}
+.input-tab-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* .input-add-btn{
+    height: 30px;
+} */
+.add-img{
+    width: 50px;
+    
+    cursor: pointer;
+}
