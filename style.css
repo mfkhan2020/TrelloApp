@@ -1,61 +1,87 @@
+body{
+    margin: 0px;
+}
+.main-container{
+    background-color: #3498db;
+    height: 100vh;
+    border: 10px solid #2980b9;
+}
+/* navbar start */
 .nav-img{
     width: 30px;
+    
+    
 }
 .home-link{
     text-decoration: none;
-    color: rebeccapurple;
     font-size: 20px;
     font-weight: 900;
     margin-left: 30px;
+    color: white;
 }
 .navbar-div{
-    border: solid royalblue;
+    border-bottom: 5px solid #2980b9;
     padding: 10px;
+}
+
+/* navbar end */
+
+/* Content area */
+#btn-add{
+    float: right;
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid #67afdf;;
 }
 .data-div{
     display: flex;
+    flex-wrap: wrap;
     
 }
 .dyn-div{
-    border: solid darkblue;
-    width: 400px;
-    height: 450px;
-    text-align: center;
+    width: 300px;
+    height: max-content;
     margin: 20px;
     display: flex;
     /* justify-content: center; */
     flex-direction: column;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 10px;
     
 }
-.dyn-input{
-    width: 260px;
-    border: none;
-    background-color: lightcyan;
+.tab-heading{
+    display: inline-block;
+}
+
+.tab-div{
+    background-color: #dae2e7;
     border-radius: 10px;
-    font-size: 25px;
     padding: 10px;
-    text-align: center;
-}
-#btn-add{
-    float: right;
-    width: 160px;
-    font-size: 20px;
-    border-radius: 10px;
-    border: none;
-    background-color: darkgreen;
-    color: white;
-    cursor: pointer;
-}
-.input-tab-div{
-    display: flex;
-    justify-content: center;
     margin-top: 10px;
 }
-/* .input-add-btn{
-    height: 30px;
-} */
-.add-img{
-    width: 50px;
-    
+.dyn-add-card-a{
+    text-decoration: none;
+    color: #95a5a6;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.edit-img, .del-img, .edit-icon{
+    width: 20px;
     cursor: pointer;
+    float: right !important;
+    margin-right: 5px;
+}
+.edit-icon{
+    margin-left: auto;
+    
 }
